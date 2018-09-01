@@ -1,6 +1,6 @@
-1. Load `SN7577i_aa.csv` and `SN7577i_bb.csv` into dataframes and explore their contents to determine how they should be joined.
-2. Using the `SN7577i_aa` and `SN7577i_bb` csv files, create a dataframe which is the result of an outer join using the 'Id' column to join on.
-3. What do you notice about the column names in the new dataframe?
-4. Using shift+ tab in Jupyter examine the possible parameters for the `merge` method.
-5. re-write the code so that the columns names which are common to both files have suffixes indicating the filename from which they come
-6. If you add the parameter 'indicator=True', what additional information is provided in the resulting dataframe?
+1. Load `SAFI_God.csv` and `SAFI_Ruaca.csv` into Dataframes and explore their contents to determine how they should be joined.
+2. Using the `SAFI_God` and `SAFI_Ruaca` csv files, create a Dataframe which is the result of an outer join using the `key_ID` column to join on.
+3. What do you notice about the column names in the new Dataframe?
+4. Using `shift`+`tab` in Jupyter examine the possible parameters for the `merge()` function.
+5. Re-write the code so that the columns names which are common to both files have suffixes indicating the filename from which they come.
+6. If you add the parameter `indicator=True`, what additional information is provided in the resulting Dataframe?
